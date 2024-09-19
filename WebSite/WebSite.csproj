@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LoginDesign\**" />
+    <Compile Remove="wwwroot\NewFolder1\**" />
+    <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="LoginDesign\**" />
+    <Content Remove="wwwroot\NewFolder1\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="LoginDesign\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="LoginDesign\**" />
+    <None Remove="wwwroot\NewFolder1\**" />
+    <None Remove="wwwroot\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj" />
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\HomeDesign\css\.DS_Store" />
+    <None Include="wwwroot\HomeDesign\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\HomeDesign\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\HomeDesign\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\HomeDesign\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\HomeDesign\css\bootstrap.css.map" />
+    <None Include="wwwroot\HomeDesign\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\HomeDesign\js\.DS_Store" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.js" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.js.map" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.min.js" />
+    <None Include="wwwroot\HomeDesign\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\HomeDesign\js\custom.js" />
+    <None Include="wwwroot\HomeDesign\js\jquery-3.0.0.min.js" />
+    <None Include="wwwroot\HomeDesign\js\jquery.mCustomScrollbar.concat.min.js" />
+    <None Include="wwwroot\HomeDesign\js\jquery.min.js" />
+    <None Include="wwwroot\HomeDesign\js\jquery.validate.js" />
+    <None Include="wwwroot\HomeDesign\js\modernizer.js" />
+    <None Include="wwwroot\HomeDesign\js\plugin.js" />
+    <None Include="wwwroot\HomeDesign\js\popper.min.js" />
+    <None Include="wwwroot\HomeDesign\js\slider-setting.js" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\animated.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\core.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\icons.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\larger.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\list.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\path.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\less\variables.less" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <None Include="wwwroot\LoginDesign\fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+    <None Include="wwwroot\LoginDesign\fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <None Include="wwwroot\LoginDesign\js\main.js" />
+    <None Include="wwwroot\LoginDesign\vendor\animsition\js\animsition.js" />
+    <None Include="wwwroot\LoginDesign\vendor\animsition\js\animsition.min.js" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\js\popper.js" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\js\popper.min.js" />
+    <None Include="wwwroot\LoginDesign\vendor\bootstrap\js\tooltip.js" />
+    <None Include="wwwroot\LoginDesign\vendor\countdowntime\countdowntime.js" />
+    <None Include="wwwroot\LoginDesign\vendor\daterangepicker\daterangepicker.js" />
+    <None Include="wwwroot\LoginDesign\vendor\daterangepicker\moment.js" />
+    <None Include="wwwroot\LoginDesign\vendor\daterangepicker\moment.min.js" />
+    <None Include="wwwroot\LoginDesign\vendor\jquery\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\LoginDesign\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <None Include="wwwroot\LoginDesign\vendor\select2\select2.js" />
+    <None Include="wwwroot\LoginDesign\vendor\select2\select2.min.js" />
+	  
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.14">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
